@@ -6,4 +6,6 @@ trigger LeadTrigger on Lead (after update) {
     //sample
     //removed
     //for another testing purpose
+
+    // add this line of code for the changes error check
 }
