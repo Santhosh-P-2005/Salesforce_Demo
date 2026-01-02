@@ -9,7 +9,7 @@ public class LeadConverter {
         lc.setContactId('003IT00002pMLOtYAO');
         lc.setConvertedStatus('Closed - Converted');
         lc.setDoNotCreateOpportunity(true);
-        //test
+        
         Database.LeadConvertResult res = Database.convertLead(lc);
         
         System.debug('Attached Account Id: ' + res.getAccountId());
