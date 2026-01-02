@@ -2,7 +2,7 @@ public class LeadConverter {
     
     public static void convertLead(Id leadId)
     {
-        //Added
+        //Added for testing
         Database.LeadConvert lc = new Database.LeadConvert();
         lc.setLeadId(leadId);
         lc.setAccountId('001IT00002zcGn7YAE');
