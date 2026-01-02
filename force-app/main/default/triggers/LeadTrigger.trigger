@@ -5,5 +5,4 @@ trigger LeadTrigger on Lead (after update) {
     }
     //sample
 
-    // new line
 }
