@@ -2,7 +2,7 @@ public class LeadHelper {
 
     public static void fileProcessor(Set<Id> leadIds, Set<Id> fileIds) {
         if (leadIds.isEmpty()) return;
-        //test updated
+        //test
         Map<Id, ContentDocumentLink> leadToFileMap = new Map<Id, ContentDocumentLink>();
         for (ContentDocumentLink cdl : [
             SELECT ContentDocumentId,
