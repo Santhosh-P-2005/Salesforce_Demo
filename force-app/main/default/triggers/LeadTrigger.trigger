@@ -4,5 +4,6 @@ trigger LeadTrigger on Lead (after update) {
         LeadHandler.afterUpdate(Trigger.new, Trigger.oldMap);
     }
     //sample
+    //removed
     // for another testing purpose
 }
